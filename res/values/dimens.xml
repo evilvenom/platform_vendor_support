@@ -18,5 +18,6 @@
 
     <!-- Color Blend -->
     <dimen name="color_blend_preview_size">36dp</dimen>
+    <dimen name="alert_dialog_padding_material">20dp</dimen>
 
 </resources>
