@@ -23,6 +23,7 @@
         <attr name="continuousUpdates" format="boolean" />
         <attr name="min" format="integer" />
         <attr name="defaultText" format="string|reference" />
+        <attr name="allowEditText" format="boolean" />
     </declare-styleable>
     
     <declare-styleable name="SeekBarPreference">
