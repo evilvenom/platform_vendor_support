@@ -18,7 +18,6 @@ package com.bliss.support.preferences;
 
 import android.content.Context;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
 import android.os.UserHandle;
 import android.util.AttributeSet;
 
