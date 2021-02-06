@@ -22,7 +22,7 @@ import androidx.preference.SwitchPreference;
 import android.os.UserHandle;
 import android.util.AttributeSet;
 
-import lineageos.preference.SelfRemovingSwitchPreference;
+import com.bliss.support.preferences.SelfRemovingSwitchPreference;
 
 public class SecureSettingSwitchPreference extends SelfRemovingSwitchPreference {
 
