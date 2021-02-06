@@ -44,7 +44,7 @@ public class ColorPickerDialog extends AlertDialog implements ColorPickerView.On
         void onColorChanged(int color);
     }
 
-    public ColorPickerDialog(Context context, int initialColor) {
+    ColorPickerDialog(Context context, int initialColor) {
         super(context);
 
         init(initialColor);
@@ -120,7 +120,7 @@ public class ColorPickerDialog extends AlertDialog implements ColorPickerView.On
      *
      * @param listener
      */
-    public void setOnColorChangedListener(OnColorChangedListener listener) {
+    void setOnColorChangedListener(OnColorChangedListener listener) {
         mListener = listener;
     }
 
